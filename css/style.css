@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background {
+    background-image: url(../images/bg.jpg);
+    height : 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom right;
+}
+.header-bg{
+    width: 100%;
+    background-color: #656565;
+    padding-bottom: 15px;
+    box-shadow: 0px 4px 10px 0px #000;
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+nav ul{ text-align: center; }
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+.logo{ width: 140px; }
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    padding: 0px 20px;
+    transition-duration: .3s;
+}
+nav ul li a:hover{ color: #5fcf80 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.leftpart{
+    width: 45%;
+    float: left;
+    padding: 150px 25px;
+}
+.leftpart h1{
+    color: #eee;
+    margin-bottom: 5px;
+}
+.leftpart h4{
+    color: #eee;
+    margin-top: 10px;
+	margin-bottom : 40px;
+}
+.leftpart ul{
+    list-style: none;
+    color: #eee;
+    margin-top: 15px;
+}
+.leftpart ul li{ margin-top : 5px;}
+.and{ color: green; }
+.rightpart{
+    width: 45%;
+    float: right;
+    padding: 70px 10px;
+}
+.signupbox{
+    text-align: center;
+    background: #2b5638;
+    padding: 35px 15px;
+    width: 70%;
+    margin-left: 70px;
+}
+.signupbox h1{
+    color: #eee;
+}
+.signupbox p{
+	padding: 10px;
+	color: #eee;
+}
+.signupbox form{
+    padding: 0 10px;
+}
+.signupbox form input{
+    margin-top: 10px;
+    width: 90%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: 1px solid #adadad;
+}
+.signupbox form input[type="submit"]{
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 4px 4px 5px 0 #222323;
+    background-color: #459c5f;
+    transition-duration: 0.3s;
+}
+.signupbox form input[type="submit"]:hover{
+    background-color: #15331e;
+    color: #eee;
+}
+
+
+
+
+
+
+
+
+
